@@ -3,7 +3,7 @@ import plotly.express as px
 import plotly.data as pldata
 import pandas as pd
 
-df = pldata.gapminder(return_type="pandas", datetimes=True)
+df = pldata.gapminder()
 
 
 countries = pd.Series(df["country"]).unique()
